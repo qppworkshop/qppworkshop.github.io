@@ -7,16 +7,16 @@
         </div>
 
         <div class="row">
-            {% assign organizers = site.organisers | sort:"order" %}
-            {% for organizer in organizers %}
+            {% assign organisers = site.organisers | sort:"order" %}
+            {% for organiser in organisers %}
             <div class="col-sm-3">
                 <div class="team-member text-center"> <!-- Added text-center here for center alignment -->
-                    <img src="{{ organizer.img }}" class="img-responsive img-circle" alt="{{ organizer.name }}"
+                    <img src="{{ organiser.img }}" class="img-responsive img-circle" alt="{{ organiser.name }}"
                         width="600" height="600">
-                    <h4><a href="{{ organizer.personal-page }}">{{ organizer.name }}</a></h4>
-                    <p class="text-muted">{{ organizer.position }}</p>
-                    <p class="text-muted">{{ organizer.organization }}</p>
-                    <p class="text-muted">{{ organizer.email }}</p>
+                    <h4><a href="{{ organiser.personal-page }}">{{ organiser.name }}</a></h4>
+                    <p class="text-muted">{{ organiser.position }}</p>
+                    <p class="text-muted">{{ organiser.organization }}</p>
+                    <p class="text-muted">{{ organiser.email }}</p>
                 </div>
             </div>
             {% endif %}
