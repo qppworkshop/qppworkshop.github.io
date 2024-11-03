@@ -13,7 +13,7 @@ github:
   zip_url: http://www.google.com
 
 collections:
-  organizers:
+  organisers:
     output: true
   speakers:
     output: true
