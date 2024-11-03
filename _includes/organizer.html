@@ -17,29 +17,7 @@
                     <h4><a href="{{ organizer.personal-page }}">{{ organizer.name }}</a></h4>
                     <p class="text-muted">{{ organizer.position }}</p>
                     <p class="text-muted">{{ organizer.organization }}</p>
-                </div>
-            </div>
-            {% endif %}
-            {% endfor %}
-        </div>
-
-        <!-- Publicity Chairs Section -->
-        <div class="row">
-            <div class="col-lg-12 text-center" style="padding-top: 40px; padding-bottom: 20px;">
-                <h2 class="section-subheading">Publicity Chairs</h2>
-            </div>
-        </div>
-
-        <div class="row">
-            {% for organizer in organizers %}
-            {% if organizer.publicity_chair == 1 %}
-            <div class="col-sm-3">
-                <div class="team-member text-center"> <!-- Added text-center here for center alignment -->
-                    <img src="{{ organizer.img }}" class="img-responsive img-circle" alt="{{ organizer.name }}"
-                        width="600" height="600">
-                    <h4><a href="{{ organizer.personal-page }}">{{ organizer.name }}</a></h4>
-                    <p class="text-muted">{{ organizer.position }}</p>
-                    <p class="text-muted">{{ organizer.organization }}</p>
+                    <p class="text-muted">{{ member.email }}</p>
                 </div>
             </div>
             {% endif %}
