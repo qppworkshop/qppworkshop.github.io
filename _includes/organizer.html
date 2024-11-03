@@ -9,7 +9,6 @@
         <div class="row">
             {% assign organizers = site.organizers | sort:"order" %}
             {% for organizer in organizers %}
-            {% if organizer.publicity_chair == 0 %}
             <div class="col-sm-3">
                 <div class="team-member text-center"> <!-- Added text-center here for center alignment -->
                     <img src="{{ organizer.img }}" class="img-responsive img-circle" alt="{{ organizer.name }}"
@@ -17,7 +16,7 @@
                     <h4><a href="{{ organizer.personal-page }}">{{ organizer.name }}</a></h4>
                     <p class="text-muted">{{ organizer.position }}</p>
                     <p class="text-muted">{{ organizer.organization }}</p>
-                    <p class="text-muted">{{ member.email }}</p>
+                    <p class="text-muted">{{ organizer.email }}</p>
                 </div>
             </div>
             {% endif %}
