@@ -1,0 +1,19 @@
+title: Cayman theme
+description: Cayman is a clean, responsive theme for GitHub Pages.
+show_downloads: false
+theme: jekyll-theme-cayman
+
+conference_name: "KEIR@ECIR 2024: The First Workshop on Knowledge-Enhanced Information Retrieval"
+conference_cikm: "on the 46th European Conference on Information Retrieval (ECIR'24)"
+conference_venue: "Glasgow, Scotland: 28th March, 2024"
+conference_intro: "Will be held in 24"
+google_analytics: G-T8FCCBB6BD
+
+github:
+  zip_url: http://www.google.com
+
+collections:
+  organizers:
+    output: true
+  speakers:
+    output: true
