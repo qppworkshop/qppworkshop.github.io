@@ -4,9 +4,9 @@ show_downloads: false
 theme: jekyll-theme-cayman
 
 conference_name: "KEIR@ECIR 2024: The First Workshop on Knowledge-Enhanced Information Retrieval"
-conference_cikm: "on the 46th European Conference on Information Retrieval (ECIR'24)"
-conference_venue: "Glasgow, Scotland: 28th March, 2024"
-conference_intro: "Will be held in 24"
+conference_cikm: "on the 47th European Conference on Information Retrieval (ECIR 2025)"
+conference_venue: "Lucca, Italy."
+conference_intro: "Will be held in 6th to 10th of April, 2025"
 google_analytics: G-T8FCCBB6BD
 
 github:
