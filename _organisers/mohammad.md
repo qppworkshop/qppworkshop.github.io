@@ -7,5 +7,5 @@ img: assets/img/mohammad.jpg
 personal-page: http://aliannejadi.com
 email: m.aliannejadi@uva.nl
 order: 2
-row: 1
+row: 0
 ---
