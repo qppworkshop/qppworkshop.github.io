@@ -5,14 +5,7 @@
                 <h2 class="section-heading">Workshop Organisers</h2>
             </div>
         </div>
-        <style>
 
-        .row {
-        display: flex;
-        justify-content: center; /* 使items居中 */
-        gap: 30px; /* 调整间距大小以控制 items 之间的水平距离 */
-    }
-        </style>
 
         <div class="row">
             {% assign organisers = site.organisers | sort:"order" %}
