@@ -5,6 +5,13 @@
                 <h2 class="section-heading">Workshop Organisers</h2>
             </div>
         </div>
+        <style>
+    /* 增加团队成员之间的水平间距 */
+    .col-sm-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+        </style>
 
         <div class="row">
             {% assign organisers = site.organisers | sort:"order" %}
