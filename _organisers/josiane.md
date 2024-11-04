@@ -6,6 +6,6 @@ loc: France
 img: assets/img/josiane.jpeg
 personal-page: https://www.irit.fr/~Josiane.Mothe/en/welcome.html
 email: josiane.mothe@irit.fr
-order: 5
+order: 7
 row: 2
 ---
