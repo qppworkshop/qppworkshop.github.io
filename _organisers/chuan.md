@@ -7,5 +7,5 @@ img: assets/img/chuan.png
 personal-page: https://chuanmeng.github.io/
 email: c.meng@uva.nl
 order: 0
-row: 2
+row: 0
 ---

@@ -7,5 +7,5 @@ img: assets/img/nicola.png
 personal-page: https://www.dei.unipd.it/~ferro/
 email: ferro@dei.unipd.it
 order: 6
-row: 2
+row: 1
 ---

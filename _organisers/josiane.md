@@ -7,5 +7,5 @@ img: assets/img/josiane.jpeg
 personal-page: https://www.irit.fr/~Josiane.Mothe/en/welcome.html
 email: josiane.mothe@irit.fr
 order: 7
-row: 2
+row: 1
 ---
