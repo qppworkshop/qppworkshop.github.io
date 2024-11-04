@@ -6,6 +6,6 @@ loc: The Netherlands
 img: assets/img/mohammad.jpg
 personal-page: http://aliannejadi.com
 email: m.aliannejadi@uva.nl
-order: 5
-row: 0
+order: 2
+row: 1
 ---
