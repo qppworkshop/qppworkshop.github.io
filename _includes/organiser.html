@@ -6,10 +6,21 @@
             </div>
         </div>
         <style>
-    /* 增加团队成员之间的水平间距 */
+.row {
+        display: flex;
+        justify-content: center; /* 使items居中 */
+        gap: 30px; /* 调整间距大小以控制 items 之间的水平距离 */
+        flex-wrap: wrap; /* 允许自动换行 */
+        margin-bottom: 20px; /* 增加行间距 */
+    }
+
     .col-sm-3 {
-        padding-left: 15px;
-        padding-right: 15px;
+        flex: 0 1 20%; /* 控制每个 item 的宽度，可调整百分比 */
+        max-width: 250px; /* 限制最大宽度，避免过度扩展 */
+    }
+
+    .team-member {
+        text-align: center; /* 居中对齐 */
     }
         </style>
 
