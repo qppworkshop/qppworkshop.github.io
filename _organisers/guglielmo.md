@@ -6,6 +6,6 @@ loc: Italy
 img: assets/img/guglielmo.jpg
 personal-page: https://www.dei.unipd.it/~faggioli/
 email: guglielmo.faggioli@dei.unipd.it
-order: 1
+order: 2
 row: 0
 ---
