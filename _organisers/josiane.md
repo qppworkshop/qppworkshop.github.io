@@ -1,6 +1,6 @@
 ---
 name: Josiane Mothe
-position: Professor
+position: Full professor
 organization: Université de Toulouse
 loc: France
 img: assets/img/josiane.jpeg

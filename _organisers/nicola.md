@@ -1,6 +1,6 @@
 ---
 name: Nicola Ferro
-position: Professor
+position: Full professor
 organization: University of Padova
 loc: Italy
 img: assets/img/nicola.png
