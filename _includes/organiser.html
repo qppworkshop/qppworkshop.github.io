@@ -1,3 +1,26 @@
+    <style>
+        .team-row {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .team-row .col-sm-3 {
+                flex: 0 1 45%;
+                max-width: 45%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .team-row .col-sm-3 {
+                flex: 0 1 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+
+
 <section id="organiser" class="{{ include.class }}">
     <div class="container">
         <div class="row">
@@ -14,32 +37,8 @@
     }
 
         </style> -->
-<style>
-    .row {
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-        flex-wrap: wrap;
-        margin-bottom: 20px;
-    }
 
-    /* Responsive design for mobile devices */
-    @media (max-width: 768px) {
-        .col-sm-3 {
-            flex: 0 1 45%; /* Two items per row on tablets */
-            max-width: 45%;
-        }
-    }
-
-    @media (max-width: 576px) {
-        .col-sm-3 {
-            flex: 0 1 100%; /* One item per row on small screens */
-            max-width: 100%;
-        }
-    }
-</style>
-
-        <div class="row">
+        <div class="row team-row">
             {% assign organisers = site.organisers | sort:"order" %}
             {% for organiser in organisers %}
             {% if organiser.row == 0 %}
@@ -58,7 +57,7 @@
             {% endfor %}
         </div>
 
-        <div class="row">
+        <div class="row team-row">
             {% assign organisers = site.organisers | sort:"order" %}
             {% for organiser in organisers %}
             {% if organiser.row == 1 %}
