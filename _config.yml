@@ -3,7 +3,7 @@ description: Cayman is a clean, responsive theme for GitHub Pages.
 show_downloads: false
 theme: jekyll-theme-cayman
 
-conference_name: "QPP++2025: Query Performance Prediction and its Applications in the Era of Large Language Models"
+conference_name: "QPP++ 2025: Query Performance Prediction and its Applications in the Era of Large Language Models"
 conference_cikm: "on the 47th European Conference on Information Retrieval (ECIR 2025)"
 conference_venue: "6th to 10th April 2025, Lucca, Italy."
 conference_intro: "Will be held from 6th to 10th April 2025"
