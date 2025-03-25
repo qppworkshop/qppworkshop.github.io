@@ -18,19 +18,36 @@
 </style>
 
 
+<style>
+  .row-opening,
+  .row-closing {
+    background-color: #e8f4fc;
+  }
+
+  .row-keynote {
+    background-color: #fff2cc;
+  }
+
+  .row-discussion {
+    background-color: #d9ead3;
+  }
+
+  .row-paper {
+    background-color: #f9f9f9;
+  }
+</style>
+
 <section id="schedule" class="{{include.class}}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Workshop Schedule</h2>
         <!--<h3>TBD</h3>-->
-      </div>
-
-        <p class="large text-muted">
-          QPP++ 2025 is a half-day workshop (9.00-12.30), which will be held on the last day of ECIR 2025 (10th April 2025) at the IMT School for Advanced Studies Lucca.
+        <p class="large text-muted text-start">
+          QPP++ 2025 is a half-day workshop (9:00–12:30), which will be held on the last day of ECIR 2025 (10th April 2025) at the IMT School for Advanced Studies Lucca.
           Below is the detailed schedule.
         </p>
-
+      </div>
     </div>
     <div class="row">
       <div class="col-lg-12">
@@ -45,31 +62,31 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr class="row-opening">
                 <td>09:00–09:10</td>
                 <td>10 min</td>
                 <td>Opening and Welcome</td>
                 <td>—</td>
               </tr>
-              <tr>
+              <tr class="row-keynote">
                 <td>09:10–09:45</td>
                 <td>35 min</td>
                 <td>Keynote: TBD</td>
                 <td>TBD</td>
               </tr>
-              <tr>
+              <tr class="row-paper">
                 <td>09:45–10:00</td>
                 <td>15 min</td>
                 <td><em>Corpora Performance Prediction</em></td>
                 <td>Andrew Parry, Jan Heinrich Merker, Simon Ruth, Maik Fröbe, Harrisen Scells</td>
               </tr>
-              <tr>
+              <tr class="row-paper">
                 <td>10:00–10:15</td>
                 <td>15 min</td>
                 <td><em>Revisiting Query Variants: The Advantage of Retrieval Over Generation of Query Variants for Effective QPP</em></td>
                 <td>Fangzheng Tian, Debasis Ganguly, Craig Macdonald</td>
               </tr>
-              <tr>
+              <tr class="row-paper">
                 <td>10:15–10:30</td>
                 <td>15 min</td>
                 <td><em>Robust Query Performance Prediction for Dense Retrievers via Adaptive Disturbance Generation</em></td>
@@ -81,31 +98,31 @@
                 <td>Break</td>
                 <td>—</td>
               </tr>
-              <tr>
+              <tr class="row-paper">
                 <td>11:00–11:15</td>
                 <td>15 min</td>
                 <td><em>PQPP: A Joint Benchmark for Text-to-Image Prompt and Query Performance Prediction</em></td>
                 <td>Eduard Poesina, Adriana Costache, Adrian-Gabriel Chifu, Josiane Mothe, Radu Tudor Ionescu</td>
               </tr>
-              <tr>
+              <tr class="row-paper">
                 <td>11:15–11:30</td>
                 <td>15 min</td>
                 <td><em>Estimating Query Performance Through Rich Contextualized Query Representations</em></td>
                 <td>Sajad Ebrahimi, Maryam Khodabakhsh, Negar Arabzadeh, Ebrahim Bagheri</td>
               </tr>
-              <tr>
+              <tr class="row-discussion">
                 <td>11:30–12:00</td>
                 <td>30 min</td>
                 <td>Breakout Discussion: Evaluating and Applying QPP in Real-world Systems</td>
                 <td>Attendees will be divided into small groups for discussion, with each group sharing their outcomes at the end.</td>
               </tr>
-              <tr>
+              <tr class="row-discussion">
                 <td>12:00–12:20</td>
                 <td>20 min</td>
                 <td>Breakout Discussion: Future Directions in QPP Modelling</td>
                 <td>Attendees will be divided into small groups for discussion, with each group sharing their outcomes at the end.</td>
               </tr>
-              <tr>
+              <tr class="row-closing">
                 <td>12:20–12:30</td>
                 <td>10 min</td>
                 <td>Closing Remarks</td>
@@ -118,3 +135,4 @@
     </div>
   </div>
 </section>
+
