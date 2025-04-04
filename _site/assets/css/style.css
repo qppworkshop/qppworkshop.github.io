@@ -370,4 +370,8 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
+.content-title {
+  text-transform: none !important;
+}
+
 /*# sourceMappingURL=style.css.map */
